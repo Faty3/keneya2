@@ -21,10 +21,21 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "googleServicesFile": "./google-services.json",
+      "package":"com.keneya.lakika",
+      "googleMapsApiKey": "AIzaSyD1BafpK9_NMIHugVuqAHHZHns6kpYcfAY"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     }
-  }
+  },
+  "plugins": [
+    [
+      "expo-location",
+      {
+        "locationAlwaysAndWhenInUsePermission": "Allow lakika to use your location."
+      }
+    ]
+  ]
 }
