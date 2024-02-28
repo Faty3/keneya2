@@ -32,7 +32,7 @@ const Stack = createNativeStackNavigator();
 
 export default function AppNavigation() {
   return (
-      <Stack.Navigator initialRouteName="Quiz" screenOptions={{gestureEnabled:true}}>
+      <Stack.Navigator initialRouteName="Welcome" screenOptions={{gestureEnabled:true}}>
         <Stack.Screen
           name="Login"
           options={{ headerShown: false }}
